@@ -22,7 +22,7 @@
 	</tr>
 	<tr>
 		<td><h4>Welcome ${username}</h4> </td>
-		<td> <a class="button" href="logout?token=${token}">Logout</a> </td>
+		<td>  <a class="button" href="http://localhost:8080/sso/logout?token=${token}">Logout</a> </td>
 	</tr>
 	<tr>
 		<td>You are having role</td>

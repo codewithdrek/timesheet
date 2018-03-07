@@ -22,7 +22,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div style="margin-top:200px; margin-left:800px; width: 100%; height: 100%; align-content: center;">
+	<div style="margin-top:150px; margin-left:300px; width: 100%; height: 100%; align-content: center;">
 		<a class="ssologinbutton" href="http://localhost:8080/sso/login?module=timesheet">Login (SSO)</a>
 	</div>
 </body>

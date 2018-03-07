@@ -41,7 +41,7 @@ public class TimeSheetController {
     @RequestMapping(value="autologintimesheet")
     @ResponseBody
     public String autoLogin(@RequestParam("username") String username, @RequestParam("password") String password) {
-    	securityService.autologin(password, password);
+    	securityService.autologin(username, password);
     	return "LOGGED IN TIMESHEET";
     }
 }
